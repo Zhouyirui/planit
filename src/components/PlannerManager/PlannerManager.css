@@ -1,0 +1,12 @@
+.container-minimised {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 25%;
+  /* transition: 850ms; */
+}
+
+.main-container {
+  display: flex;
+  margin-left: 15%;
+  /* transition: 100ms; */
+}

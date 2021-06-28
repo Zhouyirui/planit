@@ -1,0 +1,78 @@
+.remove-button {
+  margin-top: 5px;
+  position: fixed;
+  right: 5pt;
+  top: 0pt;
+}
+
+.add-button {
+  position: fixed;
+  left: 25%;
+}
+
+.semester-group {
+  padding-top: 0.5rem;
+}
+
+.card-deck-custom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-custom,
+.card-custom-add-mod {
+  width: 272px;
+  height: 92px;
+  background-color: white;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  margin: 0px 20px 20px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-custom-add-mod {
+  text-align: center;
+}
+
+.card-body-custom {
+  margin-left: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.card-title-custom,
+.card-text-custom {
+  margin: 0px;
+}
+
+.icon-spin {
+  -webkit-animation: icon-spin 2s infinite linear;
+  animation: icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,55 @@
+.module-bar-active {
+  background-color: white;
+  height: 93vh;
+  width: 25%;
+  position: fixed;
+  right: 0px;
+  transition: 350ms;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.25);
+  overflow-y: auto;
+}
+
+.module-bar-off {
+  background-color: white;
+  height: 100vh;
+  width: 25%;
+  position: fixed;
+  right: 0px;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.25);
+  right: -100%;
+  transition: 850ms;
+}
+
+.module-title,
+.module-description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.module-title {
+  font-size: 24px;
+}
+
+.module-description {
+  font-size: 16px;
+  text-align: justify;
+  padding-top: 0;
+  padding-bottom: 5rem;
+}
+
+.close-button {
+  float: left;
+  width: 40px;
+  height: 30px;
+  margin-top: 1rem;
+  margin-right: 100%;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.add-module-button {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
